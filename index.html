@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travello</title>
+
+    <!-- swiper slider link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header class="d-flex">
+
+        <div class="logo-container d-flex">
+            <div class="logo">
+                <a href="#"><i class="fas fa-plane"></i></a>
+            </div>
+            <span>travello</span>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">accomodations</a>
+            <a href="#" class="active">flights</a>
+            <a href="#">car rentals</a>
+            <a href="#">airport taxies</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-whatsapp"></a>
+        </div>
+
+    </header>
+    <!-- header section ends -->
+
+    <!-- search form starts -->
+    <form action="" id="search-form" class="d-flex">
+        <input type="search" name="" placeholder="search place..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- search form ends -->
+
+    <!-- home section starts -->
+    <section id="home" class="home d-flex">
+
+        <div class="image">
+            <img src="images/home.png" alt="image">
+        </div>
+
+        <div class="content">
+
+            <h1>BOOK & TRAVEL</h1>
+            <p>wherever you go, make yourself at home</p>
+
+            <form action="" class="booking-form">
+
+                <div class="input">
+                    <span>destination</span>
+                    <input type="text" name="destination" id="destination" placeholder="destination">
+                </div>
+
+                <div class="inputBox">
+                    <div class="input">
+                        <span>check-in</span>
+                        <input type="date" name="check_in" id="check_in">
+                    </div>
+                    <div class="input">
+                        <span>check-out</span>
+                        <input type="date" name="check_out" id="check_out">
+                    </div>
+                </div>
+
+                <div class="inputBox">
+                    <div class="input">
+                        <span>adults</span>
+                        <select name="adults" id="adults">
+                            <option value="1">1 adult</option>
+                            <option value="2">2 adults</option>
+                            <option value="3">3 adults</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <span>children</span>
+                        <select name="children" id="children">
+                            <option value="1">1 child</option>
+                            <option value="2">2 children</option>
+                            <option value="3">3 children</option>
+                        </select>
+                    </div>
+                </div>
+                <a href="#" class="btn"><i class="fas fa-search"></i>start search</a>
+
+            </form>
+
+        </div>
+
+    </section>
+    <!-- home section ends -->
+
+    <!-- stats section starts -->
+    <section id="stats" class="stats">
+
+        <div class="top">
+            <h2>25000</h2>
+        </div>
+
+        <div class="bottom">
+
+            <div class="left">
+                
+                <div class="img-container">
+                    <img src="images/bottle.png" class="bottle" alt="">
+                </div>
+                
+            </div>
+    
+            <div class="right">
+ 
+                <div class="content">
+                    <h3 class="heading">Travelers booked lovely trips</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quae est assumenda, maiores dicta nulla. Odit velit laboriosam reprehenderit aliquam corporis sunt, placeat consequatur laudantium molestias nam beatae veritatis error quo voluptatibus minima asperiores consequuntur voluptatem tempore hic earum perferendis?</p>
+                    <a href="#" class="btn">read more <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="img-container">
+                    <img src="images/lamp.png" class="lamp" alt="">
+                </div>
+
+            </div>
+    
+        </div>
+       
+
+    </section>
+    <!-- stats section ends -->
+
+    <!-- features section starts -->
+    <section class="features" id="features">
+        <h3 class="heading">Introducing new features</h3>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="number-text">1/3</div>
+                <div class="container">
+                    <img src="images/female2.png" alt="image">
+                    <div class="content">
+                        <h3>5 Star Drivers</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn">see bonuses <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="text">30% Off on Taxies</div>
+                
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number-text">2/3</div>
+                <div class="container">
+                    <img src="images/man 1.png" alt="image">
+                    <div class="content">
+                        <h3>Always Fly High</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn">see bonuses <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="text">50% Off on Flights</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number-text">3/3</div>
+                <div class="container">
+                    <img src="images/female3.png" alt="image">
+                    <div class="content">
+                        <h3>Pick your nest</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn">see bonuses <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="text">40% Off on Hotels</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </section>
+    <!-- features section ends -->
+
+    <!-- records section starts -->
+    <section id="records" class="records">
+
+        <h3 class="heading">Our base consists of:</h3>
+
+        <div class="top">
+
+            <div class="box">
+                <h3>1 billion</h3>
+                <p>Hotels, guesthouses and apartments</p>
+            </div>
+            <div class="box">
+                <h3>120</h3>
+                <p>countries</p>
+            </div>
+            <div class="box">
+                <h3>250</h3>
+                <p>airlines and lowcosters</p>
+            </div>
+            <div class="box">
+                <h3>4k</h3>
+                <p>travel agencies and companies</p>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+
+            <div class="left">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis iusto dolore perspiciatis nostrum. Aspernatur tenetur velit animi accusamus? Amet, natus asperiores consequatur nisi unde ad commodi cupiditate. Eligendi ducimus explicabo at quasi, in voluptates laborum dolore, quis officiis alias architecto!</p>
+                <a href="#" class="btn">i want to see <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="right">
+                <div class="image">
+                    <img src="images/bag.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- records section ends -->
+
+    <!-- footer section starts -->
+    <section id="footer" class="footer">
+
+        <div class="left">
+
+            <div class="links-top">
+                <a href="#">accomodations</a>
+                <a href="#">flights</a>
+                <a href="#">car rentals</a>
+                <a href="#">taxies</a>
+            </div>
+
+            <div class="links-bottom">
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+                <a href="#">Policies</a>
+                <a href="#">Help</a>
+                <a href="#">FAQ</a>
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div class="icons-top">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-whatsapp"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-twitter"></a>
+            </div>
+
+            <div class="bottom-container">
+                <div class="mail">
+                    <p>Feel free to contact us  <a href="#">safafofficial@gmail.com</a></p>
+                </div>
+                <div class="credits">
+                    <p>&copy; ZAFE SOLUTIONS PVT LTD</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- footer section ends -->
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

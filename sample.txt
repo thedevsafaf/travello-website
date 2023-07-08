@@ -1,0 +1,101 @@
+    <!-- home section starts -->
+    <section id="home" class="home">
+        
+        <div class="image">
+            <img src="images/female1.png" alt="image">
+        </div>
+
+        <div class="content">
+
+            <h2>BOOK & TRAVEL</h2>
+            <span>wherever you go, make yourself at home</span>
+            
+            <form action="" class="booking-form">
+                <div class="inputBox">
+                    <input type="text" placeholder="destination" id="destination">
+                </div>
+                <div class="inputBox">
+                    <input type="date" id="check-in-date">
+                    <input type="date" id="check-out-date">
+                </div>
+                <div class="selectBox">
+                    <select name="adults" id="adults">
+                        <option value="">1 adult</option>
+                        <option value="">2 adults</option>
+                    </select>
+                    <select name="children" id="children">
+                        <option value="">1 children</option>
+                        <option value="">2 children</option>
+                    </select>
+                </div>
+                <a href="#" class="btn">start search</a>
+            </form>
+            
+        </div>
+    
+    </section>
+    <!-- home section ends -->
+
+    .home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: var(--dblue);
+}
+
+.home .image {
+    flex: 1 1 40rem;
+    padding-top: 5rem;
+}
+
+.home .image img {
+    width: 100%;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+}
+
+.home .content h2 {
+    font-size: 5rem;
+    color: var(--white);
+}
+
+.home .content span {
+    font-size: 2.5rem;
+    color: var(--white);
+    display: block;
+    padding-bottom: 2rem;
+}
+
+.booking-form{
+    max-width: 50rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: .1rem solid var(--lblue);
+    text-align: center;
+    padding: 3rem;
+    background: var(-oblue);
+}
+
+.booking-form .inputBox, .booking-form .selectBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.booking-form .inputBox input, .booking-form .selectBox select{
+    padding: 1rem;
+    font-size: 1.7rem;
+    background: var(--dblue);
+    text-transform: none;
+    margin: 1rem 0;
+    border: .1rem solid var(--lblue);
+    width: 49%;
+    color: var(--white);
+}
+
+.booking-form .inputBox #destination{
+    width: 100%;
+}
